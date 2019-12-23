@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ul#topList, ul#bottomList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+li a:hover {
+    background-color: #111111;
+}
+
+.main-header {
+    background-color: black;
+    background-size: cover;
+    padding-bottom: none;
+    text-align: center;
+
+}
+section#about-me {
+    background-image: url(background2.jpg);
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+img#main-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: auto;
+}
+header h1 {
+    margin: 0;
+    color: white;
+    text-align: left;
+    background-color: black;
+    padding: 10px;
+}
+p {
+    margin: 0;
+}
+.middle-section {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.centered#bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+
+}
+h3 {
+    background-color: black;
+    padding: none;
+    margin: 0;
+    color: white;
+}
+div {
+    float: left;
+}
